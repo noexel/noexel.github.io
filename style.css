@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'regular';
+    src: url('SF-Pro-Rounded-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('SF-Pro-Rounded-Medium.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('SF-Pro-Rounded-Bold.woff2') format('woff2'),
+}
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.page {
+    width: calc(100% - 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.welcome-to {
+    font-family: 'medium';
+    font-size: 36px;
+}
+
+.members {
+    color: #1495F2;
+    font-family: 'bold';
+    font-size: 36px;
+}
+
+.beta-box {
+    margin-top: 5px;
+    border-radius: 17.5px;
+    text-align: center;
+    align-content: center;
+    width: 68px;
+    height: 35px;
+    background-color: #e2e2e2;
+    color: #858585;
+    font-family: 'medium';
+    font-size: 16px;
+}
+
+.go-beta {
+    z-index: 999;
+    filter: drop-shadow(0px 0px 20px #0000004a);
+    margin-top: 369px;
+    font-family: 'bold';
+    font-size: 16px;
+    color: #fff;
+    background-color: #1495F2;
+    width: 100%;
+    height: 51px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.close-app {
+    position: relative;
+    margin-top: 5px;
+    font-family: 'regular';
+    font-size: 16px;
+    color: hsla(0, 0%, 0%, 0.5);
+    background-color: #fff;
+    width: 100%;
+    height: 51px;
+    border: #e2e2e2 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.member {
+    left: 0px;
+    bottom: 106px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+}
