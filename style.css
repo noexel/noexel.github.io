@@ -84,7 +84,14 @@ body {
     border: #e2e2e2 1px solid;
     border-radius: 15px;
     cursor: pointer;
+    transition: 100ms ease-in-out;
 }
+
+.close-app:active {
+    color: #1495F2;
+    border: #1495F2 1px solid;
+}
+
 
 .member {
     left: 0px;
