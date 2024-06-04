@@ -72,6 +72,10 @@ body {
     cursor: pointer;
 }
 
+.go-beta:hover {
+    opacity: 0.8;
+}
+
 #close-app {
     position: relative;
     margin-top: 5px;
