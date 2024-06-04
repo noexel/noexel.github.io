@@ -2,4 +2,5 @@ let tg = window.Telegram.WebApp;
 
 tg.expand()
 
-document.querySelector(".close-app").onclick = tg.close();
+const close_app = document.querySelector("#close-app");
+close_app.addEventListener('click', tg.close())
