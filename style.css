@@ -72,7 +72,7 @@ body {
     cursor: pointer;
 }
 
-.close-app {
+#close-app {
     position: relative;
     margin-top: 5px;
     font-family: 'regular';
@@ -87,7 +87,7 @@ body {
     transition: 100ms ease-in-out;
 }
 
-.close-app:active {
+#close-app:active {
     color: #1495F2;
     border: #1495F2 1px solid;
 }
