@@ -86,6 +86,10 @@ body {
     cursor: pointer;
 }
 
+#close-app:hover {
+    opacity: 0.8;
+}
+
 #close-app:active {
     color: #1495F2;
     border: #1495F2 1px solid;
