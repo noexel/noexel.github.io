@@ -60,7 +60,6 @@ body {
 
 .go-beta {
     z-index: 999;
-    filter: drop-shadow(0px 0px 20px #0000004a);
     margin-top: 369px;
     font-family: 'bold';
     font-size: 16px;
@@ -85,7 +84,6 @@ body {
     border: #e2e2e2 1px solid;
     border-radius: 15px;
     cursor: pointer;
-    z-index: -1;
 }
 
 .member {
