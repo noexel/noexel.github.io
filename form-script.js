@@ -1,5 +1,6 @@
 let tg1 = window.Telegram.WebApp;
 
+tg1.BackButton.show();
 
 let form_mask = document.querySelector('.mask');
 
@@ -10,4 +11,4 @@ window.addEventListener('load', () => {
     }, 200);
 });
 
-tg1.onEvent('backButtonClicked', location.herf = 'index.html')
+tg1.onEvent('backButtonClicked', history.back());
