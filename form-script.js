@@ -12,4 +12,4 @@ window.addEventListener('load', () => {
 });
 
 
-tg1.BackButton.Telegram.WebApp.onEvent('backButtonClicked') = () => history.back();
+tg1.onEvent('backButtonClicked') = () => history.back();
