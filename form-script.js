@@ -19,4 +19,4 @@ tg1.onEvent('backButtonClicked', () => {
 
 let username = document.querySelector('.nickname');
 
-username.setAttribute('placeholder', `${tg1.initDataUnsafe.firts_name}`);
+username.setAttribute('placeholder', `${tg1.initDataUnsafe.first_name}`);
