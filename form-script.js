@@ -12,4 +12,7 @@ window.addEventListener('load', () => {
 });
 
 
-tg1.onEvent('backButtonClicked') = () => location.href = 'index.html';
+tg1.onEvent('backButtonClicked', () => {
+    history.back()
+});
+
