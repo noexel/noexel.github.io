@@ -11,4 +11,6 @@ window.addEventListener('load', () => {
     }, 200);
 });
 
-tg1.onEvent('backButtonClicked', history.back());
+
+document.querySelector(".go-beta").onclick = () => location.href = 'form.html';
+tg1.onEvent('backButtonClicked') = () => history.back();
