@@ -4,7 +4,7 @@ tg.setHeaderColor('#fff');
 
 tg.expand();
 
-tg.backButton.hide();
+tg.BackButton.hide();
 
 document.querySelector("#close-app").onclick = () => tg.close();
 
