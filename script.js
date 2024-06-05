@@ -4,6 +4,8 @@ tg.setHeaderColor('#fff');
 
 tg.expand();
 
+tg.backButton.hide();
+
 document.querySelector("#close-app").onclick = () => tg.close();
 
 document.querySelector(".go-beta").onclick = () => location.href = 'form.html';
