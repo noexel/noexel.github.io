@@ -13,6 +13,6 @@ window.addEventListener('load', () => {
 
 
 tg1.onEvent('backButtonClicked', () => {
-    history.back()
+    history.back(), tg1.BackButton.hide()
 });
 
