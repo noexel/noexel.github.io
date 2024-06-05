@@ -123,57 +123,21 @@ body {
     align-items: center;
 }
 
+
 .loader {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 6rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-  .loader:before,
-  .loader:after {
-    content: "";
-    position: absolute;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
-    animation: pulsOut 1.8s ease-in-out infinite;
-    filter: drop-shadow(0 0 1rem rgba(117, 172, 255, 0.75));
-  }
-  .loader:before {
-    width: 100%;
-    padding-bottom: 100%;
-    box-shadow: inset 0 0 0 1rem #1495F2;
-    animation-name: pulsIn;
-  }
-  .loader:after {
-    width: calc(100% - 2rem);
-    padding-bottom: calc(100% - 2rem);
-    box-shadow: 0 0 0 0 #1495F2;
-  }
-
-  @keyframes pulsIn {
-    0% {
-      box-shadow: inset 0 0 0 1rem #1495F2;
-      opacity: 1;
+    background: radial-gradient(farthest-side,#1495F2 95%,#0000) 50% 1.1px/13.4px 13.4px no-repeat,
+         radial-gradient(farthest-side,#0000 calc(100% - 15.7px),rgba(71,75,255,0.1) 0);
+    animation: spinner-aur408 1s infinite linear;
+ }
+ 
+ @keyframes spinner-aur408 {
+    to {
+       transform: rotate(1turn);
     }
-    50%, 100% {
-      box-shadow: inset 0 0 0 0 #1495F2;
-      opacity: 0;
-    }
-  }
-
-  @keyframes pulsOut {
-    0%, 50% {
-      box-shadow: 0 0 0 0 #1495F2;
-      opacity: 0;
-    }
-    100% {
-      box-shadow: 0 0 0 1rem #1495F2;
-      opacity: 1;
-    }
-  }
+ }
 
 .hide {
     opacity: 0;
