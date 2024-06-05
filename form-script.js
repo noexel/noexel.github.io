@@ -1,5 +1,8 @@
 let tg1 = window.Telegram.WebApp;
 
+let username = document.querySelector('.nickname');
+username.setAttribute('value', `${tg1.initDataUnsafe.user.first_name}`);
+
 tg1.BackButton.show();
 
 let form_mask = document.querySelector('.mask');
@@ -17,6 +20,8 @@ tg1.onEvent('backButtonClicked', () => {
     tg1.BackButton.hide();
 });
 
-let username = document.querySelector('.nickname');
 
-username.setAttribute('value', `${tg1.initDataUnsafe.user.first_name}`);
+document.addEventListener("keydown", function(e) {
+if (e.keyCode == 13) {
+username.blur();}
+});
