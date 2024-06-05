@@ -178,3 +178,79 @@ body {
 .hide {
     opacity: 0;
 }
+
+
+.form-page {
+  width: 100%;
+  height: 100%;
+}
+
+.form-text {
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.one-second {
+  font-size: 20px;
+  font-family: 'bold';
+}
+
+.form-desc {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'medium';
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+.nickname {
+  padding-left: 20px;
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 51px;
+  margin-left: 10px;
+  width: calc(100% - 44px);
+  margin-top: 20px;
+  border: #1495F2 1px solid;
+  border-radius: 15px;
+  font-family: 'bold';
+  font-size: 16px;
+  color: #1495F2;
+
+}
+
+.nickname::placeholder {
+  color: #1495F2;
+}
+
+.nickname:focus {
+  outline: #1495F2 3px solid;
+  outline-offset: -2px;
+  color: #1495F2;
+}
+
+.form-member {
+  bottom: 61px;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100%;
+} 
+
+.start {
+  left: 0px;
+  position: absolute;
+  bottom: 10px;
+  font-family: 'bold';
+  font-size: 16px;
+  color: #fff;
+  background-color: #1495F2;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  height: 51px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
