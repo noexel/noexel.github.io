@@ -16,3 +16,7 @@ tg1.onEvent('backButtonClicked', () => {
     history.back();
     tg1.BackButton.hide();
 });
+
+let username = document.querySelector('.nickname');
+
+username.setAttribute('placeholder', `${tg1.initDataUnsafe.firts_name}`);
