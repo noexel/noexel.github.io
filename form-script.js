@@ -12,5 +12,4 @@ window.addEventListener('load', () => {
 });
 
 
-document.querySelector(".go-beta").onclick = () => location.href = 'form.html';
-tg1.onEvent('backButtonClicked') = () => history.back();
+tg1.BackButton.Telegram.WebApp.onEvent('backButtonClicked') = () => history.back();
