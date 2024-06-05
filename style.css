@@ -184,7 +184,7 @@ body {
 }
 
 .nickname::placeholder {
-  color: #1495F2;
+  color: hsla(205, 90%, 51%, 0.5);
 }
 
 .nickname:focus {
