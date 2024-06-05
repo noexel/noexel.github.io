@@ -87,7 +87,7 @@ body {
     cursor: pointer;
 }
 
-#close-app:active {
+#close-app:focus {
     color: #1495F2;
     border: #1495F2 1px solid;
 }
