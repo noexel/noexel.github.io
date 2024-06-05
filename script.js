@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 
-tg.setHeaderColor('#fff');
+tg.setHeaderColor('#ffffff');
 
 tg.expand();
 document.querySelector("#close-app").onclick = () => tg.close();
