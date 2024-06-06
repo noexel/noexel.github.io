@@ -1,5 +1,5 @@
 let tg1 = window.Telegram.WebApp;
-
+tg1.setHeaderColor('#fff');
 let username = document.querySelector('.nickname');
 username.setAttribute('value', `${tg1.initDataUnsafe.user.first_name}`);
 
