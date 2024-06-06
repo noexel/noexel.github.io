@@ -25,3 +25,5 @@ document.addEventListener("keydown", function(e) {
 if (e.keyCode == 13) {
 username.blur();}
 });
+
+document.querySelector(".start").onclick = () => location.href = 'game.html';
