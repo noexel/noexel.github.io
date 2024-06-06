@@ -1,5 +1,5 @@
 let tg2 = window.Telegram.WebApp;
-
+tg2.setHeaderColor('#fff');
 tg2.BackButton.hide();
 
 
