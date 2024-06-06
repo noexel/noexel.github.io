@@ -247,7 +247,7 @@ per_hour1 {
     background-color: #fff;
     position: fixed;
     top: 0;
-    z-index: 100;
+    z-index: 2000;
     display: flex;
     justify-content: center;
     align-items: center;
